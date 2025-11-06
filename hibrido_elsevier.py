@@ -143,8 +143,8 @@ class ExtracaoElsevier:
 
 
 if __name__ == "__main__":
-    folder_path_data = Path(r"C:\Users\cesar\Desktop\Scrap_emails_data\elsevier\enfileirados_elsevier")
-    folder_path_emails = Path(r"C:\Users\cesar\Desktop\Scrap_emails_data\elsevier\processados_elsevier")
+    folder_path_data = Path(r"C:\Users\Scrap_emails_data\elsevier\enfileirados_elsevier")
+    folder_path_emails = Path(r"C:\Users\Scrap_emails_data\elsevier\processados_elsevier")
     scrap = ExtracaoElsevier()
 
     asyncio.run(scrap.main(folder_path_data, folder_path_emails))
