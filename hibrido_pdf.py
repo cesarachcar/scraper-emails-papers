@@ -239,8 +239,8 @@ class FormatadoCrawler:
 if __name__ == "__main__":
     caminho_planilha_doi = settings.CAMINHO_PLANILHA_DOI
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    save_emails_pdf = fr"C:\Users\cesar\Downloads\emails_coletados_pdf_{timestamp}.csv"
-    save_urls_elsevier = fr"C:\Users\cesar\Downloads\urls_coletadas_elsevier{timestamp}.csv"
+    save_emails_pdf = fr"C:\Users\emails_coletados_pdf_{timestamp}.csv"
+    save_urls_elsevier = fr"C:\Users\urls_coletadas_elsevier{timestamp}.csv"
     scrap = FormatadoCrawler()
 
     inicio_codigo = time.perf_counter()
