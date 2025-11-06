@@ -174,7 +174,7 @@ class FormatadoAiohttp:
 # ---------------- Programa ----------------
 if __name__ == "__main__":
     caminho_planilha_doi = settings.CAMINHO_PLANILHA_DOI
-    save_path = r"C:\Users\cesar\Downloads\emails_coletados_async.csv"
+    save_path = r"C:\Users\Downloads\emails_coletados_async.csv"
     scrap = FormatadoAiohttp()
 
     inicio_codigo = time.perf_counter()
